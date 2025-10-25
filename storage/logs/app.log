@@ -1,0 +1,3 @@
+# Este archivo será poblado por la aplicación.
+# Ejemplo de entrada de log:
+# [2025-10-25 12:40:00] [ERROR] Database Connection Error: SQLSTATE[HY000] [2002] No such file or directory {"file":"/path/to/pastex/app/Core/DB.php","line":45}
