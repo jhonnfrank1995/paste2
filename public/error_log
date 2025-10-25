@@ -1,0 +1,217 @@
+[25-Oct-2025 05:34:58 UTC] Failed to load .env file: Unable to read any of the environment file(s) at [/home/lgdeewds/paste.lgdevstudio.com/bootstrap/../.env].
+[25-Oct-2025 05:35:01 UTC] Failed to load .env file: Unable to read any of the environment file(s) at [/home/lgdeewds/paste.lgdevstudio.com/bootstrap/../.env].
+[25-Oct-2025 05:42:20 UTC] PHP Warning:  The use statement with non-compound name 'PDO' has no effect in /home/lgdeewds/paste.lgdevstudio.com/config/database.php on line 5
+[25-Oct-2025 05:42:20 UTC] PHP Warning:  The use statement with non-compound name 'PDO' has no effect in /home/lgdeewds/paste.lgdevstudio.com/config/database.php on line 5
+[25-Oct-2025 05:42:20 UTC] PHP Fatal error:  Uncaught TypeError: App\Core\Session::getFlash(): Argument #2 ($default) must be of type string, array given, called in /home/lgdeewds/paste.lgdevstudio.com/app/Core/View.php on line 21 and defined in /home/lgdeewds/paste.lgdevstudio.com/app/Core/Session.php:70
+Stack trace:
+#0 /home/lgdeewds/paste.lgdevstudio.com/app/Core/View.php(21): App\Core\Session->getFlash()
+#1 /home/lgdeewds/paste.lgdevstudio.com/app/Http/Controllers/PasteController.php(24): App\Core\View::render()
+#2 /home/lgdeewds/paste.lgdevstudio.com/public/index.php(102): App\Http\Controllers\PasteController->home()
+#3 {main}
+  thrown in /home/lgdeewds/paste.lgdevstudio.com/app/Core/Session.php on line 70
+[25-Oct-2025 06:31:04 UTC] PHP Fatal error:  Uncaught RuntimeException: View 'admin.dashboard.index' not found at path: /home/lgdeewds/paste.lgdevstudio.com/app/Core/../../resources/views/admin/dashboard/index.php in /home/lgdeewds/paste.lgdevstudio.com/app/Core/View.php:37
+Stack trace:
+#0 /home/lgdeewds/paste.lgdevstudio.com/app/Http/Controllers/Admin/DashboardController.php(32): App\Core\View::render()
+#1 /home/lgdeewds/paste.lgdevstudio.com/public/index.php(102): App\Http\Controllers\Admin\DashboardController->index()
+#2 {main}
+  thrown in /home/lgdeewds/paste.lgdevstudio.com/app/Core/View.php on line 37
+[25-Oct-2025 06:31:11 UTC] PHP Fatal error:  Uncaught TypeError: App\Models\Paste::findByUserId(): Argument #1 ($userId) must be of type int, string given, called in /home/lgdeewds/paste.lgdevstudio.com/app/Http/Controllers/UserController.php on line 38 and defined in /home/lgdeewds/paste.lgdevstudio.com/app/Models/Paste.php:27
+Stack trace:
+#0 /home/lgdeewds/paste.lgdevstudio.com/app/Http/Controllers/UserController.php(38): App\Models\Paste->findByUserId()
+#1 /home/lgdeewds/paste.lgdevstudio.com/public/index.php(102): App\Http\Controllers\UserController->dashboard()
+#2 {main}
+  thrown in /home/lgdeewds/paste.lgdevstudio.com/app/Models/Paste.php on line 27
+[25-Oct-2025 06:36:53 UTC] PHP Fatal error:  Uncaught RuntimeException: View 'user.dashboard' not found at path: /home/lgdeewds/paste.lgdevstudio.com/app/Core/../../resources/views/user/dashboard.php in /home/lgdeewds/paste.lgdevstudio.com/app/Core/View.php:37
+Stack trace:
+#0 /home/lgdeewds/paste.lgdevstudio.com/app/Http/Controllers/UserController.php(39): App\Core\View::render()
+#1 /home/lgdeewds/paste.lgdevstudio.com/public/index.php(102): App\Http\Controllers\UserController->dashboard()
+#2 {main}
+  thrown in /home/lgdeewds/paste.lgdevstudio.com/app/Core/View.php on line 37
+[25-Oct-2025 06:36:54 UTC] PHP Fatal error:  Uncaught RuntimeException: View 'user.dashboard' not found at path: /home/lgdeewds/paste.lgdevstudio.com/app/Core/../../resources/views/user/dashboard.php in /home/lgdeewds/paste.lgdevstudio.com/app/Core/View.php:37
+Stack trace:
+#0 /home/lgdeewds/paste.lgdevstudio.com/app/Http/Controllers/UserController.php(39): App\Core\View::render()
+#1 /home/lgdeewds/paste.lgdevstudio.com/public/index.php(102): App\Http\Controllers\UserController->dashboard()
+#2 {main}
+  thrown in /home/lgdeewds/paste.lgdevstudio.com/app/Core/View.php on line 37
+[25-Oct-2025 06:37:00 UTC] PHP Fatal error:  Uncaught TypeError: App\Models\Paste::countAll(): Return value must be of type int, string returned in /home/lgdeewds/paste.lgdevstudio.com/app/Models/Paste.php:67
+Stack trace:
+#0 /home/lgdeewds/paste.lgdevstudio.com/app/Http/Controllers/Admin/DashboardController.php(19): App\Models\Paste->countAll()
+#1 /home/lgdeewds/paste.lgdevstudio.com/public/index.php(102): App\Http\Controllers\Admin\DashboardController->index()
+#2 {main}
+  thrown in /home/lgdeewds/paste.lgdevstudio.com/app/Models/Paste.php on line 67
+[25-Oct-2025 06:37:03 UTC] PHP Fatal error:  Uncaught RuntimeException: View 'user.dashboard' not found at path: /home/lgdeewds/paste.lgdevstudio.com/app/Core/../../resources/views/user/dashboard.php in /home/lgdeewds/paste.lgdevstudio.com/app/Core/View.php:37
+Stack trace:
+#0 /home/lgdeewds/paste.lgdevstudio.com/app/Http/Controllers/UserController.php(39): App\Core\View::render()
+#1 /home/lgdeewds/paste.lgdevstudio.com/public/index.php(102): App\Http\Controllers\UserController->dashboard()
+#2 {main}
+  thrown in /home/lgdeewds/paste.lgdevstudio.com/app/Core/View.php on line 37
+[25-Oct-2025 06:37:20 UTC] PHP Fatal error:  Uncaught RuntimeException: View 'user.dashboard' not found at path: /home/lgdeewds/paste.lgdevstudio.com/app/Core/../../resources/views/user/dashboard.php in /home/lgdeewds/paste.lgdevstudio.com/app/Core/View.php:37
+Stack trace:
+#0 /home/lgdeewds/paste.lgdevstudio.com/app/Http/Controllers/UserController.php(39): App\Core\View::render()
+#1 /home/lgdeewds/paste.lgdevstudio.com/public/index.php(102): App\Http\Controllers\UserController->dashboard()
+#2 {main}
+  thrown in /home/lgdeewds/paste.lgdevstudio.com/app/Core/View.php on line 37
+[25-Oct-2025 06:37:23 UTC] PHP Fatal error:  Uncaught TypeError: App\Models\Paste::countAll(): Return value must be of type int, string returned in /home/lgdeewds/paste.lgdevstudio.com/app/Models/Paste.php:67
+Stack trace:
+#0 /home/lgdeewds/paste.lgdevstudio.com/app/Http/Controllers/Admin/DashboardController.php(19): App\Models\Paste->countAll()
+#1 /home/lgdeewds/paste.lgdevstudio.com/public/index.php(102): App\Http\Controllers\Admin\DashboardController->index()
+#2 {main}
+  thrown in /home/lgdeewds/paste.lgdevstudio.com/app/Models/Paste.php on line 67
+[25-Oct-2025 06:41:20 UTC] PHP Fatal error:  Uncaught TypeError: App\Models\User::countAll(): Return value must be of type int, string returned in /home/lgdeewds/paste.lgdevstudio.com/app/Models/User.php:45
+Stack trace:
+#0 /home/lgdeewds/paste.lgdevstudio.com/app/Http/Controllers/Admin/DashboardController.php(20): App\Models\User->countAll()
+#1 /home/lgdeewds/paste.lgdevstudio.com/public/index.php(102): App\Http\Controllers\Admin\DashboardController->index()
+#2 {main}
+  thrown in /home/lgdeewds/paste.lgdevstudio.com/app/Models/User.php on line 45
+[25-Oct-2025 06:41:21 UTC] PHP Fatal error:  Uncaught TypeError: App\Models\User::countAll(): Return value must be of type int, string returned in /home/lgdeewds/paste.lgdevstudio.com/app/Models/User.php:45
+Stack trace:
+#0 /home/lgdeewds/paste.lgdevstudio.com/app/Http/Controllers/Admin/DashboardController.php(20): App\Models\User->countAll()
+#1 /home/lgdeewds/paste.lgdevstudio.com/public/index.php(102): App\Http\Controllers\Admin\DashboardController->index()
+#2 {main}
+  thrown in /home/lgdeewds/paste.lgdevstudio.com/app/Models/User.php on line 45
+[25-Oct-2025 06:41:27 UTC] PHP Fatal error:  Uncaught TypeError: App\Models\User::countAll(): Return value must be of type int, string returned in /home/lgdeewds/paste.lgdevstudio.com/app/Models/User.php:45
+Stack trace:
+#0 /home/lgdeewds/paste.lgdevstudio.com/app/Http/Controllers/Admin/DashboardController.php(20): App\Models\User->countAll()
+#1 /home/lgdeewds/paste.lgdevstudio.com/public/index.php(102): App\Http\Controllers\Admin\DashboardController->index()
+#2 {main}
+  thrown in /home/lgdeewds/paste.lgdevstudio.com/app/Models/User.php on line 45
+[25-Oct-2025 06:43:42 UTC] PHP Fatal error:  Uncaught RuntimeException: View 'admin.pastes.index' not found at path: /home/lgdeewds/paste.lgdevstudio.com/app/Core/../../resources/views/admin/pastes/index.php in /home/lgdeewds/paste.lgdevstudio.com/app/Core/View.php:37
+Stack trace:
+#0 /home/lgdeewds/paste.lgdevstudio.com/app/Http/Controllers/Admin/PasteManagementController.php(38): App\Core\View::render()
+#1 /home/lgdeewds/paste.lgdevstudio.com/public/index.php(102): App\Http\Controllers\Admin\PasteManagementController->index()
+#2 {main}
+  thrown in /home/lgdeewds/paste.lgdevstudio.com/app/Core/View.php on line 37
+[25-Oct-2025 06:43:48 UTC] PHP Fatal error:  Uncaught RuntimeException: View 'admin.users.index' not found at path: /home/lgdeewds/paste.lgdevstudio.com/app/Core/../../resources/views/admin/users/index.php in /home/lgdeewds/paste.lgdevstudio.com/app/Core/View.php:37
+Stack trace:
+#0 /home/lgdeewds/paste.lgdevstudio.com/app/Http/Controllers/Admin/UserManagementController.php(38): App\Core\View::render()
+#1 /home/lgdeewds/paste.lgdevstudio.com/public/index.php(102): App\Http\Controllers\Admin\UserManagementController->index()
+#2 {main}
+  thrown in /home/lgdeewds/paste.lgdevstudio.com/app/Core/View.php on line 37
+[25-Oct-2025 06:43:54 UTC] PHP Fatal error:  Uncaught RuntimeException: View 'admin.settings.index' not found at path: /home/lgdeewds/paste.lgdevstudio.com/app/Core/../../resources/views/admin/settings/index.php in /home/lgdeewds/paste.lgdevstudio.com/app/Core/View.php:37
+Stack trace:
+#0 /home/lgdeewds/paste.lgdevstudio.com/app/Http/Controllers/Admin/SettingsController.php(31): App\Core\View::render()
+#1 /home/lgdeewds/paste.lgdevstudio.com/public/index.php(102): App\Http\Controllers\Admin\SettingsController->index()
+#2 {main}
+  thrown in /home/lgdeewds/paste.lgdevstudio.com/app/Core/View.php on line 37
+[25-Oct-2025 06:44:03 UTC] PHP Fatal error:  Uncaught RuntimeException: View 'admin.pastes.index' not found at path: /home/lgdeewds/paste.lgdevstudio.com/app/Core/../../resources/views/admin/pastes/index.php in /home/lgdeewds/paste.lgdevstudio.com/app/Core/View.php:37
+Stack trace:
+#0 /home/lgdeewds/paste.lgdevstudio.com/app/Http/Controllers/Admin/PasteManagementController.php(38): App\Core\View::render()
+#1 /home/lgdeewds/paste.lgdevstudio.com/public/index.php(102): App\Http\Controllers\Admin\PasteManagementController->index()
+#2 {main}
+  thrown in /home/lgdeewds/paste.lgdevstudio.com/app/Core/View.php on line 37
+[25-Oct-2025 06:44:57 UTC] PHP Fatal error:  Uncaught RuntimeException: View 'admin.pastes.index' not found at path: /home/lgdeewds/paste.lgdevstudio.com/app/Core/../../resources/views/admin/pastes/index.php in /home/lgdeewds/paste.lgdevstudio.com/app/Core/View.php:37
+Stack trace:
+#0 /home/lgdeewds/paste.lgdevstudio.com/app/Http/Controllers/Admin/PasteManagementController.php(38): App\Core\View::render()
+#1 /home/lgdeewds/paste.lgdevstudio.com/public/index.php(102): App\Http\Controllers\Admin\PasteManagementController->index()
+#2 {main}
+  thrown in /home/lgdeewds/paste.lgdevstudio.com/app/Core/View.php on line 37
+[25-Oct-2025 06:45:40 UTC] PHP Fatal error:  Uncaught RuntimeException: View 'admin.users.index' not found at path: /home/lgdeewds/paste.lgdevstudio.com/app/Core/../../resources/views/admin/users/index.php in /home/lgdeewds/paste.lgdevstudio.com/app/Core/View.php:37
+Stack trace:
+#0 /home/lgdeewds/paste.lgdevstudio.com/app/Http/Controllers/Admin/UserManagementController.php(38): App\Core\View::render()
+#1 /home/lgdeewds/paste.lgdevstudio.com/public/index.php(102): App\Http\Controllers\Admin\UserManagementController->index()
+#2 {main}
+  thrown in /home/lgdeewds/paste.lgdevstudio.com/app/Core/View.php on line 37
+[25-Oct-2025 06:47:56 UTC] PHP Warning:  Undefined variable $totalPastes in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/index.php on line 6
+[25-Oct-2025 06:47:56 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/index.php on line 6
+[25-Oct-2025 06:47:59 UTC] PHP Warning:  Undefined variable $totalPastes in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/index.php on line 6
+[25-Oct-2025 06:47:59 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/index.php on line 6
+[25-Oct-2025 06:48:03 UTC] PHP Warning:  Undefined variable $totalPastes in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/index.php on line 6
+[25-Oct-2025 06:48:03 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/index.php on line 6
+[25-Oct-2025 06:48:05 UTC] PHP Fatal error:  Uncaught RuntimeException: View 'admin.users.index' not found at path: /home/lgdeewds/paste.lgdevstudio.com/app/Core/../../resources/views/admin/users/index.php in /home/lgdeewds/paste.lgdevstudio.com/app/Core/View.php:37
+Stack trace:
+#0 /home/lgdeewds/paste.lgdevstudio.com/app/Http/Controllers/Admin/UserManagementController.php(38): App\Core\View::render()
+#1 /home/lgdeewds/paste.lgdevstudio.com/public/index.php(102): App\Http\Controllers\Admin\UserManagementController->index()
+#2 {main}
+  thrown in /home/lgdeewds/paste.lgdevstudio.com/app/Core/View.php on line 37
+[25-Oct-2025 06:48:13 UTC] PHP Fatal error:  Uncaught RuntimeException: View 'admin.settings.index' not found at path: /home/lgdeewds/paste.lgdevstudio.com/app/Core/../../resources/views/admin/settings/index.php in /home/lgdeewds/paste.lgdevstudio.com/app/Core/View.php:37
+Stack trace:
+#0 /home/lgdeewds/paste.lgdevstudio.com/app/Http/Controllers/Admin/SettingsController.php(31): App\Core\View::render()
+#1 /home/lgdeewds/paste.lgdevstudio.com/public/index.php(102): App\Http\Controllers\Admin\SettingsController->index()
+#2 {main}
+  thrown in /home/lgdeewds/paste.lgdevstudio.com/app/Core/View.php on line 37
+[25-Oct-2025 06:48:47 UTC] PHP Fatal error:  Uncaught RuntimeException: View 'admin.users.index' not found at path: /home/lgdeewds/paste.lgdevstudio.com/app/Core/../../resources/views/admin/users/index.php in /home/lgdeewds/paste.lgdevstudio.com/app/Core/View.php:37
+Stack trace:
+#0 /home/lgdeewds/paste.lgdevstudio.com/app/Http/Controllers/Admin/UserManagementController.php(38): App\Core\View::render()
+#1 /home/lgdeewds/paste.lgdevstudio.com/public/index.php(102): App\Http\Controllers\Admin\UserManagementController->index()
+#2 {main}
+  thrown in /home/lgdeewds/paste.lgdevstudio.com/app/Core/View.php on line 37
+[25-Oct-2025 06:51:59 UTC] PHP Warning:  Undefined variable $totalPastes in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/index.php on line 6
+[25-Oct-2025 06:51:59 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/index.php on line 6
+[25-Oct-2025 06:52:03 UTC] PHP Fatal error:  Uncaught RuntimeException: View 'admin.settings.index' not found at path: /home/lgdeewds/paste.lgdevstudio.com/app/Core/../../resources/views/admin/settings/index.php in /home/lgdeewds/paste.lgdevstudio.com/app/Core/View.php:37
+Stack trace:
+#0 /home/lgdeewds/paste.lgdevstudio.com/app/Http/Controllers/Admin/SettingsController.php(31): App\Core\View::render()
+#1 /home/lgdeewds/paste.lgdevstudio.com/public/index.php(102): App\Http\Controllers\Admin\SettingsController->index()
+#2 {main}
+  thrown in /home/lgdeewds/paste.lgdevstudio.com/app/Core/View.php on line 37
+[25-Oct-2025 07:03:51 UTC] PHP Warning:  Undefined variable $totalPastes in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/index.php on line 6
+[25-Oct-2025 07:03:51 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/index.php on line 6
+[25-Oct-2025 07:04:34 UTC] PHP Parse error:  syntax error, unexpected single-quoted string " . $id);", expecting ")" in /home/lgdeewds/paste.lgdevstudio.com/app/Http/Controllers/Admin/UserManagementController.php on line 77
+[25-Oct-2025 07:05:56 UTC] PHP Warning:  Undefined variable $totalPastes in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/index.php on line 6
+[25-Oct-2025 07:05:56 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/index.php on line 6
+[25-Oct-2025 07:06:00 UTC] PHP Parse error:  syntax error, unexpected single-quoted string " . $id);", expecting ")" in /home/lgdeewds/paste.lgdevstudio.com/app/Http/Controllers/Admin/UserManagementController.php on line 77
+[25-Oct-2025 07:06:08 UTC] PHP Parse error:  syntax error, unexpected single-quoted string " . $id);", expecting ")" in /home/lgdeewds/paste.lgdevstudio.com/app/Http/Controllers/Admin/UserManagementController.php on line 77
+[25-Oct-2025 07:06:27 UTC] PHP Warning:  Undefined variable $totalPastes in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/index.php on line 6
+[25-Oct-2025 07:06:27 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/index.php on line 6
+[25-Oct-2025 07:07:14 UTC] PHP Warning:  Undefined variable $totalPastes in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/index.php on line 6
+[25-Oct-2025 07:07:14 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/index.php on line 6
+[25-Oct-2025 07:07:17 UTC] PHP Warning:  Undefined variable $totalPastes in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/index.php on line 6
+[25-Oct-2025 07:07:17 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/index.php on line 6
+[25-Oct-2025 07:07:30 UTC] PHP Warning:  Undefined variable $totalPastes in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/index.php on line 6
+[25-Oct-2025 07:07:30 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/index.php on line 6
+[25-Oct-2025 07:15:50 UTC] PHP Warning:  Undefined variable $totalPastes in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/index.php on line 6
+[25-Oct-2025 07:15:50 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/index.php on line 6
+[25-Oct-2025 07:16:37 UTC] PHP Warning:  Undefined variable $totalPastes in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/index.php on line 6
+[25-Oct-2025 07:16:37 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/index.php on line 6
+[25-Oct-2025 16:22:37 UTC] PHP Warning:  Undefined variable $totalPastes in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/index.php on line 6
+[25-Oct-2025 16:22:37 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/index.php on line 6
+[25-Oct-2025 17:07:26 UTC] PHP Warning:  include(/home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/users/layouts/main.php): Failed to open stream: No such file or directory in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/users/index.php on line 64
+[25-Oct-2025 17:07:26 UTC] PHP Warning:  include(/home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/users/layouts/main.php): Failed to open stream: No such file or directory in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/users/index.php on line 64
+[25-Oct-2025 17:07:26 UTC] PHP Warning:  include(): Failed opening '/home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/users/layouts/main.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/users/index.php on line 64
+[25-Oct-2025 17:27:07 UTC] PHP Warning:  include(/home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/layouts/main.php): Failed to open stream: No such file or directory in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/index.php on line 64
+[25-Oct-2025 17:27:07 UTC] PHP Warning:  include(/home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/layouts/main.php): Failed to open stream: No such file or directory in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/index.php on line 64
+[25-Oct-2025 17:27:07 UTC] PHP Warning:  include(): Failed opening '/home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/layouts/main.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/index.php on line 64
+[25-Oct-2025 17:27:11 UTC] PHP Warning:  include(/home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/users/layouts/main.php): Failed to open stream: No such file or directory in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/users/index.php on line 64
+[25-Oct-2025 17:27:11 UTC] PHP Warning:  include(/home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/users/layouts/main.php): Failed to open stream: No such file or directory in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/users/index.php on line 64
+[25-Oct-2025 17:27:11 UTC] PHP Warning:  include(): Failed opening '/home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/users/layouts/main.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/users/index.php on line 64
+[25-Oct-2025 17:27:30 UTC] PHP Warning:  include(/home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/layouts/main.php): Failed to open stream: No such file or directory in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/index.php on line 64
+[25-Oct-2025 17:27:30 UTC] PHP Warning:  include(/home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/layouts/main.php): Failed to open stream: No such file or directory in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/index.php on line 64
+[25-Oct-2025 17:27:30 UTC] PHP Warning:  include(): Failed opening '/home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/layouts/main.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/index.php on line 64
+[25-Oct-2025 17:27:38 UTC] PHP Warning:  include(/home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/layouts/main.php): Failed to open stream: No such file or directory in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/index.php on line 64
+[25-Oct-2025 17:27:38 UTC] PHP Warning:  include(/home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/layouts/main.php): Failed to open stream: No such file or directory in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/index.php on line 64
+[25-Oct-2025 17:27:38 UTC] PHP Warning:  include(): Failed opening '/home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/layouts/main.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/index.php on line 64
+[25-Oct-2025 17:27:41 UTC] PHP Warning:  include(/home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/users/layouts/main.php): Failed to open stream: No such file or directory in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/users/index.php on line 64
+[25-Oct-2025 17:27:41 UTC] PHP Warning:  include(/home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/users/layouts/main.php): Failed to open stream: No such file or directory in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/users/index.php on line 64
+[25-Oct-2025 17:27:41 UTC] PHP Warning:  include(): Failed opening '/home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/users/layouts/main.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/users/index.php on line 64
+[25-Oct-2025 17:31:53 UTC] PHP Warning:  include(/home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/layouts/main.php): Failed to open stream: No such file or directory in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/index.php on line 64
+[25-Oct-2025 17:31:53 UTC] PHP Warning:  include(/home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/layouts/main.php): Failed to open stream: No such file or directory in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/index.php on line 64
+[25-Oct-2025 17:31:53 UTC] PHP Warning:  include(): Failed opening '/home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/layouts/main.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/index.php on line 64
+[25-Oct-2025 17:31:56 UTC] PHP Warning:  include(/home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/layouts/main.php): Failed to open stream: No such file or directory in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/index.php on line 64
+[25-Oct-2025 17:31:56 UTC] PHP Warning:  include(/home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/layouts/main.php): Failed to open stream: No such file or directory in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/index.php on line 64
+[25-Oct-2025 17:31:56 UTC] PHP Warning:  include(): Failed opening '/home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/layouts/main.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/index.php on line 64
+[25-Oct-2025 17:31:58 UTC] PHP Warning:  include(/home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/users/layouts/main.php): Failed to open stream: No such file or directory in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/users/index.php on line 64
+[25-Oct-2025 17:31:58 UTC] PHP Warning:  include(/home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/users/layouts/main.php): Failed to open stream: No such file or directory in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/users/index.php on line 64
+[25-Oct-2025 17:31:58 UTC] PHP Warning:  include(): Failed opening '/home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/users/layouts/main.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/users/index.php on line 64
+[25-Oct-2025 17:38:18 UTC] PHP Warning:  include(/home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/layouts/main.php): Failed to open stream: No such file or directory in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/index.php on line 64
+[25-Oct-2025 17:38:18 UTC] PHP Warning:  include(/home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/layouts/main.php): Failed to open stream: No such file or directory in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/index.php on line 64
+[25-Oct-2025 17:38:18 UTC] PHP Warning:  include(): Failed opening '/home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/layouts/main.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/index.php on line 64
+[25-Oct-2025 17:40:13 UTC] PHP Warning:  include(/home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/layouts/main.php): Failed to open stream: No such file or directory in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/index.php on line 64
+[25-Oct-2025 17:40:13 UTC] PHP Warning:  include(/home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/layouts/main.php): Failed to open stream: No such file or directory in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/index.php on line 64
+[25-Oct-2025 17:40:13 UTC] PHP Warning:  include(): Failed opening '/home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/layouts/main.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/index.php on line 64
+[25-Oct-2025 17:40:15 UTC] PHP Warning:  include(/home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/users/layouts/main.php): Failed to open stream: No such file or directory in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/users/index.php on line 64
+[25-Oct-2025 17:40:15 UTC] PHP Warning:  include(/home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/users/layouts/main.php): Failed to open stream: No such file or directory in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/users/index.php on line 64
+[25-Oct-2025 17:40:15 UTC] PHP Warning:  include(): Failed opening '/home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/users/layouts/main.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/users/index.php on line 64
+[25-Oct-2025 17:58:39 UTC] PHP Warning:  include(/home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/users/layouts/main.php): Failed to open stream: No such file or directory in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/users/index.php on line 64
+[25-Oct-2025 17:58:39 UTC] PHP Warning:  include(/home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/users/layouts/main.php): Failed to open stream: No such file or directory in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/users/index.php on line 64
+[25-Oct-2025 17:58:39 UTC] PHP Warning:  include(): Failed opening '/home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/users/layouts/main.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/users/index.php on line 64
+[25-Oct-2025 17:58:42 UTC] PHP Warning:  include(/home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/layouts/main.php): Failed to open stream: No such file or directory in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/index.php on line 64
+[25-Oct-2025 17:58:42 UTC] PHP Warning:  include(/home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/layouts/main.php): Failed to open stream: No such file or directory in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/index.php on line 64
+[25-Oct-2025 17:58:42 UTC] PHP Warning:  include(): Failed opening '/home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/layouts/main.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/index.php on line 64
+[25-Oct-2025 17:58:46 UTC] PHP Warning:  include(/home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/users/layouts/main.php): Failed to open stream: No such file or directory in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/users/index.php on line 64
+[25-Oct-2025 17:58:46 UTC] PHP Warning:  include(/home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/users/layouts/main.php): Failed to open stream: No such file or directory in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/users/index.php on line 64
+[25-Oct-2025 17:58:46 UTC] PHP Warning:  include(): Failed opening '/home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/users/layouts/main.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/users/index.php on line 64
+[25-Oct-2025 17:58:48 UTC] PHP Warning:  include(/home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/layouts/main.php): Failed to open stream: No such file or directory in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/index.php on line 64
+[25-Oct-2025 17:58:48 UTC] PHP Warning:  include(/home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/layouts/main.php): Failed to open stream: No such file or directory in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/index.php on line 64
+[25-Oct-2025 17:58:48 UTC] PHP Warning:  include(): Failed opening '/home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/layouts/main.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/pastes/index.php on line 64
+[25-Oct-2025 18:04:40 UTC] PHP Warning:  include(/home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/users/layouts/main.php): Failed to open stream: No such file or directory in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/users/index.php on line 64
+[25-Oct-2025 18:04:40 UTC] PHP Warning:  include(/home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/users/layouts/main.php): Failed to open stream: No such file or directory in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/users/index.php on line 64
+[25-Oct-2025 18:04:40 UTC] PHP Warning:  include(): Failed opening '/home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/users/layouts/main.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/lgdeewds/paste.lgdevstudio.com/resources/views/admin/users/index.php on line 64

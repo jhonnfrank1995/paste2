@@ -1,0 +1,26 @@
+/* PasteX Pro - Tema Oscuro */
+:root {
+    --bg-color: #121212;
+    --text-color: #e0e0e0;
+    --border-color: #333;
+    --primary-color: #3b82f6;
+    --primary-hover-color: #2563eb;
+    --header-bg: #1e1e1e;
+    --code-bg: #282c34;
+    --link-color: #60a5fa;
+    --input-bg: #2a2a2a;
+    --input-border: #444;
+}
+/* La mayoría de los estilos son iguales al tema claro, solo cambian las variables */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+pre, code { font-family: "SF Mono", "Menlo", "Consolas", monospace; }
+pre { background-color: var(--code-bg); border: 1px solid var(--border-color); padding: 1em; border-radius: 6px; white-space: pre-wrap; word-wrap: break-word; }
+.container { max-width: 960px; margin: 2rem auto; padding: 0 1rem; }
+.button { background-color: var(--primary-color); color: #fff; padding: 0.5rem 1rem; border: none; border-radius: 4px; text-decoration: none; cursor: pointer; }
+.button:hover { background-color: var(--primary-hover-color); }

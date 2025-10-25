@@ -1,0 +1,13 @@
+{
+"create_new_paste": "Create a New Paste",
+"title": "Title (Optional)",
+"content": "Paste Content",
+"language": "Syntax Highlighting",
+"visibility": "Visibility",
+"public": "Public",
+"unlisted": "Unlisted",
+"private": "Private (requires login)",
+"expiration": "Expiration",
+"never": "Never",
+"burn_after_read": "Burn After Read"
+}

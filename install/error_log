@@ -1,0 +1,26 @@
+[25-Oct-2025 02:33:24 UTC] PHP Fatal error:  Uncaught Error: Class "Dotenv\Dotenv" not found in /home/lgdeewds/paste.lgdevstudio.com/install/Installer.php:62
+Stack trace:
+#0 /home/lgdeewds/paste.lgdevstudio.com/install/index.php(81): Installer->run()
+#1 {main}
+  thrown in /home/lgdeewds/paste.lgdevstudio.com/install/Installer.php on line 62
+[25-Oct-2025 03:45:11 UTC] PHP Warning:  The use statement with non-compound name 'PDO' has no effect in /home/lgdeewds/paste.lgdevstudio.com/config/database.php on line 5
+[25-Oct-2025 03:45:11 UTC] Database Connection Error: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+[25-Oct-2025 03:45:36 UTC] PHP Warning:  The use statement with non-compound name 'PDO' has no effect in /home/lgdeewds/paste.lgdevstudio.com/config/database.php on line 5
+[25-Oct-2025 03:45:36 UTC] Database Connection Error: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+[25-Oct-2025 03:48:12 UTC] PHP Warning:  The use statement with non-compound name 'PDO' has no effect in /home/lgdeewds/paste.lgdevstudio.com/config/database.php on line 5
+[25-Oct-2025 03:48:12 UTC] Database Connection Error: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+[25-Oct-2025 03:56:02 UTC] PHP Warning:  The use statement with non-compound name 'PDO' has no effect in /home/lgdeewds/paste.lgdevstudio.com/config/database.php on line 5
+[25-Oct-2025 03:56:02 UTC] Database Connection Error: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+[25-Oct-2025 03:57:35 UTC] PHP Warning:  The use statement with non-compound name 'PDO' has no effect in /home/lgdeewds/paste.lgdevstudio.com/config/database.php on line 5
+[25-Oct-2025 03:57:35 UTC] Database Connection Error: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+[25-Oct-2025 04:23:05 UTC] PHP Warning:  The use statement with non-compound name 'PDO' has no effect in /home/lgdeewds/paste.lgdevstudio.com/config/database.php on line 5
+[25-Oct-2025 04:23:05 UTC] Database Connection Error: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+[25-Oct-2025 04:36:49 UTC] PHP Warning:  The use statement with non-compound name 'PDO' has no effect in /home/lgdeewds/paste.lgdevstudio.com/config/database.php on line 5
+[25-Oct-2025 04:36:49 UTC] Database Connection Error: SQLSTATE[28000] [1045] Access denied for user 'lgdeewds_lgdevstudio'@'localhost' (using password: YES)
+[25-Oct-2025 04:44:19 UTC] PHP Warning:  The use statement with non-compound name 'PDO' has no effect in /home/lgdeewds/paste.lgdevstudio.com/config/database.php on line 5
+[25-Oct-2025 04:44:19 UTC] Database Connection Error: SQLSTATE[28000] [1045] Access denied for user 'lgdeewds_lgdevstudio'@'localhost' (using password: YES)
+[25-Oct-2025 05:01:46 UTC] PHP Warning:  The use statement with non-compound name 'PDO' has no effect in /home/lgdeewds/paste.lgdevstudio.com/config/database.php on line 5
+[25-Oct-2025 05:04:37 UTC] PHP Warning:  The use statement with non-compound name 'PDO' has no effect in /home/lgdeewds/paste.lgdevstudio.com/config/database.php on line 5
+[25-Oct-2025 05:09:04 UTC] PHP Warning:  The use statement with non-compound name 'PDO' has no effect in /home/lgdeewds/paste.lgdevstudio.com/config/database.php on line 5
+[25-Oct-2025 05:09:40 UTC] PHP Warning:  The use statement with non-compound name 'PDO' has no effect in /home/lgdeewds/paste.lgdevstudio.com/config/database.php on line 5
+[25-Oct-2025 05:35:40 UTC] PHP Warning:  The use statement with non-compound name 'PDO' has no effect in /home/lgdeewds/paste.lgdevstudio.com/config/database.php on line 5

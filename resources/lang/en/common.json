@@ -1,0 +1,13 @@
+{
+  "app_name": "PasteX Pro",
+  "new_paste": "New Paste",
+  "submit": "Submit",
+  "login": "Login",
+  "register": "Register",
+  "logout": "Logout",
+  "dashboard": "Dashboard",
+  "admin_panel": "Admin Panel",
+  "search": "Search",
+  "error": "Error",
+  "success": "Success"
+}

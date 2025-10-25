@@ -1,0 +1,246 @@
+/* =================================================================== */
+/*  PasteX Pro Installer - Style (Best Seller Theme)                  */
+/* =================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+:root {
+    --primary-color: #6d28d9;
+    --secondary-color: #db2777;
+    --success-color: #16a34a;
+    --danger-color: #dc2626;
+    --warning-color: #f59e0b;
+    --light-color: #f8fafc;
+    --dark-color: #1e293b;
+    --gray-color: #64748b;
+    --border-color: #cbd5e1;
+    --font-family: 'Inter', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--light-color);
+    color: var(--dark-color);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 40px 20px;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.installer-container {
+    width: 100%;
+    max-width: 700px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    animation: fadeIn 0.5s ease-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.installer-header {
+    padding: 30px;
+    background: linear-gradient(120deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    color: white;
+    text-align: center;
+}
+
+.installer-header h1 {
+    margin: 0;
+    font-size: 2.25rem;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+.installer-header p {
+    margin: 5px 0 0;
+    opacity: 0.8;
+}
+
+.installer-content {
+    padding: 40px;
+}
+
+.installer-footer {
+    padding: 20px 40px;
+    background-color: #f1f5f9;
+    border-top: 1px solid var(--border-color);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 25px;
+    color: var(--primary-color);
+    border-bottom: 2px solid #f0e9fe;
+    padding-bottom: 10px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 8px;
+    color: var(--dark-color);
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"],
+.form-group input[type="email"] {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(109, 40, 217, 0.2);
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(120deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    background-size: 200% auto;
+}
+.button:hover {
+    background-position: right center;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+.button:disabled {
+    background: #9ca3af;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+}
+a.button {
+    text-align: center;
+}
+
+/* Step 1: Checks List */
+.checks-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.checks-list li {
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #e5e7eb;
+}
+.checks-list li:last-child {
+    border-bottom: none;
+}
+.check-status {
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    flex-shrink: 0;
+}
+.check-status.ok { background-color: var(--success-color); }
+.check-status.error { background-color: var(--danger-color); }
+.check-label {
+    flex-grow: 1;
+    font-weight: 500;
+}
+.check-message {
+    font-size: 0.9rem;
+    color: var(--gray-color);
+    background: #f1f5f9;
+    padding: 5px 10px;
+    border-radius: 6px;
+    font-family: monospace;
+}
+
+/* Step 4: Installation Progress */
+#install-progress {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+#install-progress li {
+    padding: 10px;
+    opacity: 0.5;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+#install-progress li.pending::before { content: '⏱️ '; }
+#install-progress li.running { opacity: 1; color: var(--primary-color); }
+#install-progress li.running::before {
+    content: '⏳ ';
+    animation: spin 1s linear infinite;
+    display: inline-block;
+}
+#install-progress li.done { opacity: 1; color: var(--success-color); }
+#install-progress li.done::before { content: '✅ '; }
+#install-progress li.error { opacity: 1; color: var(--danger-color); }
+#install-progress li.error::before { content: '❌ '; }
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Step 5: Complete */
+.complete-icon {
+    font-size: 5rem;
+    text-align: center;
+    margin-bottom: 20px;
+    animation: tada 1s ease;
+}
+@keyframes tada {
+    from { transform: scale3d(1, 1, 1); }
+    10%, 20% { transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg); }
+    30%, 50%, 70%, 90% { transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg); }
+    40%, 60%, 80% { transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg); }
+    to { transform: scale3d(1, 1, 1); }
+}
+.text-center { text-align: center; }
+
+/* General utility */
+.error-message {
+    background-color: #fef2f2;
+    color: var(--danger-color);
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #fecaca;
+    margin-bottom: 20px;
+}

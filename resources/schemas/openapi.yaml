@@ -1,0 +1,73 @@
+openapi: 3.0.3
+info:
+  title: PasteX Pro API
+  description: A RESTful API for creating, reading, and managing pastes on PasteX Pro.
+  version: 1.0.0
+servers:
+  - url: '{protocol}://{hostname}/api/v1'
+    variables:
+      protocol:
+        default: 'https'
+      hostname:
+        default: 'pastex.pro'
+paths:
+  /pastes:
+    post:
+      summary: Create a new paste
+      description: Creates a new paste with the provided content and options.
+      security:
+        - ApiKeyAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                content:
+                  type: string
+                  description: The raw text content of the paste.
+                title:
+                  type: string
+                  description: An optional title for the paste.
+                language:
+                  type: string
+                  default: 'plaintext'
+                visibility:
+                  type: string
+                  enum: [public, unlisted, private]
+                  default: 'unlisted'
+      responses:
+        '201':
+          description: Paste created successfully.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: string
+                  url:
+                    type: string
+        '400':
+          description: Bad Request (e.g., missing content).
+  /pastes/{id}:
+    get:
+      summary: Get a specific paste
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Successful response with paste data.
+        '404':
+          description: Paste not found.
+components:
+  securitySchemes:
+    ApiKeyAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: 'API_KEY'

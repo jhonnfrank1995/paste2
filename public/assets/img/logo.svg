@@ -1,0 +1,42 @@
+<svg width="220" height="60" viewBox="0 0 220 60" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="PasteX Pro Logo">
+    <style>
+        .logo-text {
+            font-family: 'SF Mono', 'Menlo', 'Consolas', 'Liberation Mono', monospace;
+            font-size: 28px;
+            font-weight: 500;
+            fill: currentColor; /* Hereda el color del texto (negro o blanco) */
+        }
+        .logo-icon-fill {
+            fill: currentColor;
+        }
+        .logo-icon-stroke {
+            stroke: currentColor;
+            stroke-width: 2.5;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+            fill: none;
+        }
+    </style>
+    
+    <title>PasteX Pro Logo</title>
+
+    <!-- Icono: Símbolo de documento con la X -->
+    <g transform="translate(10, 10)">
+        <!-- Contorno del documento -->
+        <path class="logo-icon-stroke" d="M28,1 H12 C11.448,1 11,1.448 11,2 V38 C11,38.552 11.448,39 12,39 H38 C38.552,39 39,38.552 39,38 V12 L28,1 Z" />
+        
+        <!-- Esquina doblada -->
+        <path class="logo-icon-stroke" d="M27,1 V13 H39" />
+
+        <!-- Símbolo X dentro del documento -->
+        <g transform="translate(18, 18) scale(0.6)">
+            <line class="logo-icon-stroke" x1="5" y1="5" x2="20" y2="20" />
+            <line class="logo-icon-stroke" x1="20" y1="5" x2="5" y2="20" />
+        </g>
+    </g>
+
+    <!-- Texto: "PasteX Pro" -->
+    <text x="65" y="38" class="logo-text">
+        Paste<tspan fill-opacity="0.7">X</tspan> Pro
+    </text>
+</svg>
